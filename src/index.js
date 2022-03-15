@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import MyApp from './App';
+import {TodoComponent} from './component/TodoComponent';
+import MyFuncComponent from './component/MyFuncComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MyApp/>
+    <TodoComponent value="James" />
+    <MyFuncComponent name="Mike" age={34}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
