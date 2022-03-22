@@ -5,12 +5,17 @@ import MyApp from './App';
 import {TodoComponent} from './component/TodoComponent';
 import MyFuncComponent from './component/MyFuncComponent';
 import reportWebVitals from './reportWebVitals';
-
+import Demo from './component/Demo';
+import EffectHook from './component/EffectHook';
+import EffectNew from './component/EffectNew';
 ReactDOM.render(
   <React.StrictMode>
-    <MyApp/>
+    {/* <MyApp/>
     <TodoComponent value="James" />
-    <MyFuncComponent name="Mike" age={34}/>
+    <MyFuncComponent name="Mike" age={34}/> 
+    <Demo/>*/}
+    <MyApp />
+  
   </React.StrictMode>,
   document.getElementById('root')
 );
